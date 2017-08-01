@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script> 
+        <script src="App.js"></script>
     </head>
-    <body>
-        <div>TODO write content</div>
+    <body ng-app="App">
+        <h1>home</h1>
+        <a href="#/">home</a>
+        <a href="#/teste">teste</a>
+        <div ng-view></div>
     </body>
 </html>

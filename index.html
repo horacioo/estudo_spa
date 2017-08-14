@@ -7,11 +7,19 @@
         <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script> 
         <script src="App.js"></script>
+        <script src="servicos.js"></script>
+        <script src="home.js"></script>
+        <script src="route.js"></script>
     </head>
     <body ng-app="App">
-        <h1>home</h1>
+        <div ng-controller="MyHome">
+            <h1>home !!{{ teste }} {{ retorno }}!! </h1>
+            
+        </div>
+        <!--
         <a href="#/">home</a>
         <a href="#/teste">teste</a>
         <div ng-view></div>
+        -->
     </body>
 </html>
